@@ -15,6 +15,8 @@ class VarUserDefault{
     var PhoneNo:String = "PhoneNo"
     var Email:String = "Email"
     var Favorate:String = "Favorate"
+    
+    
     //auth
     func getGlobal(key:String) -> String{
         let preferences = UserDefaults.standard

@@ -16,7 +16,7 @@ struct Splach: View {
    var body: some View {
     ZStack(alignment: .top){
        if logo_key == 0{
-           Image("AppLogo").resizable().frame(width: 250, height: 175, alignment: .center).onAppear{
+           Image(app_logo).resizable().frame(width: 250, height: 175, alignment: .center).onAppear{
                restartAnimation()
            }
        }
